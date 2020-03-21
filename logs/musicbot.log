@@ -1,0 +1,162 @@
+[27.984857559] 2020-03-21 22:42:11,618 - INFO - launcher: Starting sanity checks
+[28.983592987] 2020-03-21 22:42:11,619 - INFO - launcher: Checking for Python 3.5+
+[28.983592987] 2020-03-21 22:42:11,619 - INFO - launcher: Checking console encoding
+[28.983592987] 2020-03-21 22:42:11,619 - INFO - launcher: Setting console encoding to UTF-8
+[28.983592987] 2020-03-21 22:42:11,619 - INFO - launcher: Ensuring we're in the right environment
+[30.982255936] 2020-03-21 22:42:11,621 - INFO - launcher: Adding local bins/ folder to path
+[488.729000092] 2020-03-21 22:42:12,079 - INFO - launcher: Required checks passed.
+[489.734411240] 2020-03-21 22:42:12,080 - INFO - launcher: Optional checks passed.
+[489.734411240] 2020-03-21 22:42:12,080 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0739991664886475] 2020-03-21 22:42:12,664 - WARNING - musicbot.config | In config.py::MainThread(11404), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0739991664886475] 2020-03-21 22:42:12,664 - INFO - musicbot.config | In config.py::MainThread(11404), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0760169029235840] 2020-03-21 22:42:12,666 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 225 in _setup_logging: Set logging level to INFO
+[1.0780153274536133] 2020-03-21 22:42:12,668 - DEBUG - musicbot.json | In json.py::MainThread(11404), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.1079986095428467] 2020-03-21 22:42:12,698 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[1.1079986095428467] 2020-03-21 22:42:12,698 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.4651601314544678] 2020-03-21 22:42:16,056 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 951 in on_ready: Connection established, ready to go.
+[4.4661324024200439] 2020-03-21 22:42:16,056 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 342 in _cache_app_info: Caching app info
+[4.8379900455474854] 2020-03-21 22:42:16,428 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.8419589996337891] 2020-03-21 22:42:16,432 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.8419589996337891] 2020-03-21 22:42:16,432 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 789 in _scheck_server_permissions: Checking server permissions
+[4.8419589996337891] 2020-03-21 22:42:16,432 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.8429865837097168] 2020-03-21 22:42:16,433 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 797 in _scheck_configs: Validating config
+[4.8429865837097168] 2020-03-21 22:42:16,433 - DEBUG - musicbot.config | In config.py::MainThread(11404), line 236 in async_validate: Validating options...
+[4.8429865837097168] 2020-03-21 22:42:16,433 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 800 in _scheck_configs: Validating permissions config
+[4.8439857959747314] 2020-03-21 22:42:16,434 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11404), line 94 in async_validate: Validating permissions...
+[4.8439857959747314] 2020-03-21 22:42:16,434 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.8459763526916504] 2020-03-21 22:42:16,436 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.8469581604003906] 2020-03-21 22:42:16,437 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 979 in on_ready: Guild List:
+[4.8489534854888916] 2020-03-21 22:42:16,439 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 983 in on_ready:  - あの
+[4.8509666919708252] 2020-03-21 22:42:16,441 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1039 in on_ready: Not bound to any text channels
+[4.8519527912139893] 2020-03-21 22:42:16,442 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1065 in on_ready: Not autojoining any voice channels
+[1.1570501327514648] 2020-03-22 01:33:45,173 - WARNING - musicbot.config | In config.py::MainThread(13152), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1580548286437988] 2020-03-22 01:33:45,174 - INFO - musicbot.config | In config.py::MainThread(13152), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.1650459766387939] 2020-03-22 01:33:45,181 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 225 in _setup_logging: Set logging level to INFO
+[1.1710436344146729] 2020-03-22 01:33:45,187 - DEBUG - musicbot.json | In json.py::MainThread(13152), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2193498611450195] 2020-03-22 01:33:45,235 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 90 in __init__: Starting MusicBot 172ec52
+[1.2203540802001953] 2020-03-22 01:33:45,236 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.2739286422729492] 2020-03-22 01:33:48,290 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 951 in on_ready: Connection established, ready to go.
+[4.2739286422729492] 2020-03-22 01:33:48,290 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 342 in _cache_app_info: Caching app info
+[4.4997878074645996] 2020-03-22 01:33:48,516 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.5007460117340088] 2020-03-22 01:33:48,517 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 789 in _scheck_server_permissions: Checking server permissions
+[4.5007460117340088] 2020-03-22 01:33:48,517 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.5017490386962891] 2020-03-22 01:33:48,518 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 797 in _scheck_configs: Validating config
+[4.5017490386962891] 2020-03-22 01:33:48,518 - DEBUG - musicbot.config | In config.py::MainThread(13152), line 236 in async_validate: Validating options...
+[4.5017490386962891] 2020-03-22 01:33:48,518 - DEBUG - musicbot.bot | In bot.py::MainThread(13152), line 800 in _scheck_configs: Validating permissions config
+[4.5017490386962891] 2020-03-22 01:33:48,518 - DEBUG - musicbot.permissions | In permissions.py::MainThread(13152), line 94 in async_validate: Validating permissions...
+[4.5017490386962891] 2020-03-22 01:33:48,518 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.5027384757995605] 2020-03-22 01:33:48,519 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.5027384757995605] 2020-03-22 01:33:48,519 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 979 in on_ready: Guild List:
+[4.5037436485290527] 2020-03-22 01:33:48,520 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 983 in on_ready:  - あの
+[4.5037436485290527] 2020-03-22 01:33:48,520 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 1039 in on_ready: Not bound to any text channels
+[4.5037436485290527] 2020-03-22 01:33:48,520 - INFO - musicbot.bot | In bot.py::MainThread(13152), line 1065 in on_ready: Not autojoining any voice channels
+[1.0763947963714600] 2020-03-22 01:56:06,350 - WARNING - musicbot.config | In config.py::MainThread(12960), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0773942470550537] 2020-03-22 01:56:06,351 - INFO - musicbot.config | In config.py::MainThread(12960), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0793933868408203] 2020-03-22 01:56:06,353 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 225 in _setup_logging: Set logging level to INFO
+[1.0813915729522705] 2020-03-22 01:56:06,355 - DEBUG - musicbot.json | In json.py::MainThread(12960), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.1073637008666992] 2020-03-22 01:56:06,381 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 90 in __init__: Starting MusicBot ea79579
+[1.1083631515502930] 2020-03-22 01:56:06,382 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.2575652599334717] 2020-03-22 01:56:09,531 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 951 in on_ready: Connection established, ready to go.
+[4.2585916519165039] 2020-03-22 01:56:09,532 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 342 in _cache_app_info: Caching app info
+[4.4928071498870850] 2020-03-22 01:56:09,767 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.4938066005706787] 2020-03-22 01:56:09,768 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 789 in _scheck_server_permissions: Checking server permissions
+[4.4948060512542725] 2020-03-22 01:56:09,769 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.4948060512542725] 2020-03-22 01:56:09,769 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 797 in _scheck_configs: Validating config
+[4.4948060512542725] 2020-03-22 01:56:09,769 - DEBUG - musicbot.config | In config.py::MainThread(12960), line 236 in async_validate: Validating options...
+[4.4948060512542725] 2020-03-22 01:56:09,769 - DEBUG - musicbot.bot | In bot.py::MainThread(12960), line 800 in _scheck_configs: Validating permissions config
+[4.4948060512542725] 2020-03-22 01:56:09,769 - DEBUG - musicbot.permissions | In permissions.py::MainThread(12960), line 94 in async_validate: Validating permissions...
+[4.4948060512542725] 2020-03-22 01:56:09,769 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.4958214759826660] 2020-03-22 01:56:09,770 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.4968042373657227] 2020-03-22 01:56:09,771 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 979 in on_ready: Guild List:
+[4.4968042373657227] 2020-03-22 01:56:09,771 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 983 in on_ready:  - あの
+[4.4978036880493164] 2020-03-22 01:56:09,772 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 1039 in on_ready: Not bound to any text channels
+[4.4994242191314697] 2020-03-22 01:56:09,773 - INFO - musicbot.bot | In bot.py::MainThread(12960), line 1065 in on_ready: Not autojoining any voice channels
+[1.1935851573944092] 2020-03-22 01:59:01,875 - WARNING - musicbot.config | In config.py::MainThread(13096), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1945848464965820] 2020-03-22 01:59:01,876 - INFO - musicbot.config | In config.py::MainThread(13096), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.1965656280517578] 2020-03-22 01:59:01,878 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 225 in _setup_logging: Set logging level to INFO
+[1.1985645294189453] 2020-03-22 01:59:01,880 - DEBUG - musicbot.json | In json.py::MainThread(13096), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2265484333038330] 2020-03-22 01:59:01,908 - INFO - musicbot.bot | In bot.py::MainThread(13096), line 90 in __init__: Starting MusicBot ea79579
+[1.2265484333038330] 2020-03-22 01:59:01,908 - INFO - musicbot.bot | In bot.py::MainThread(13096), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.3502988815307617] 2020-03-22 01:59:05,032 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 951 in on_ready: Connection established, ready to go.
+[4.3502988815307617] 2020-03-22 01:59:05,032 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 342 in _cache_app_info: Caching app info
+[4.6049394607543945] 2020-03-22 01:59:05,286 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.6059217453002930] 2020-03-22 01:59:05,287 - ERROR - musicbot.bot | In bot.py::MainThread(13096), line 939 in on_error: Exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\POPO\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 270, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\POPO\musicbot\musicbot\bot.py", line 959, in on_ready
+    await self._on_ready_sanity_checks()
+  File "C:\Users\POPO\musicbot\musicbot\bot.py", line 161, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\POPO\musicbot\musicbot\bot.py", line 760, in _on_ready_sanity_checks
+    await self._scheck_ensure_env()
+  File "C:\Users\POPO\musicbot\musicbot\bot.py", line 775, in _scheck_ensure_env
+    pathlib.Path('data/%s/' % guild.id).mkdir(exist_ok=True)
+  File "C:\Users\POPO\AppData\Local\Programs\Python\Python37-32\lib\pathlib.py", line 1258, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [WinError 3] 指定されたパスが見つかりません。: 'data\\627432898257223690'
+[540.3925154209136963] 2020-03-22 02:08:01,074 - INFO - musicbot.bot | In bot.py::MainThread(13096), line 2706 in on_message: 258117009714184193/popopo#4752: !summon
+[541.1747472286224365] 2020-03-22 02:08:01,856 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[541.2996909618377686] 2020-03-22 02:08:01,981 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 0 entries
+[541.2996909618377686] 2020-03-22 02:08:01,981 - INFO - musicbot.bot | In bot.py::MainThread(13096), line 1935 in cmd_summon: Joining あの/一般
+[541.3016901016235352] 2020-03-22 02:08:01,983 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 532 in on_player_stop: Running on_player_stop
+[587.0283224582672119] 2020-03-22 02:08:47,710 - INFO - musicbot.bot | In bot.py::MainThread(13096), line 2706 in on_message: 258117009714184193/popopo#4752: !p ヤマガタ電機のうた
+[589.0717804431915283] 2020-03-22 02:08:49,753 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:ヤマガタ電機のうた', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ヤマガタ電機のうた', 'webpage_url_basename': 'ヤマガタ電機のうた', 'extractor_key': 'Generic'}
+[591.4162027835845947] 2020-03-22 02:08:52,098 - DEBUG - musicbot.entry | In entry.py::MainThread(13096), line 56 in get_ready_future: Created future for None
+[591.4172167778015137] 2020-03-22 02:08:52,099 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 624 in on_player_entry_added: Running on_player_entry_added
+[591.4172167778015137] 2020-03-22 02:08:52,099 - DEBUG - musicbot.bot | In bot.py::MainThread(13096), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[591.4192028045654297] 2020-03-22 02:08:52,101 - INFO - musicbot.entry | In entry.py::MainThread(13096), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[592.3412013053894043] 2020-03-22 02:08:53,023 - INFO - musicbot.entry | In entry.py::MainThread(13096), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[593.4089739322662354] 2020-03-22 02:08:54,090 - DEBUG - musicbot.entry | In entry.py::MainThread(13096), line 56 in get_ready_future: Created future for audio_cache\youtube-3q3_WS3d93I-_.webm
+[593.4089739322662354] 2020-03-22 02:08:54,090 - FFMPEG - musicbot.player | In player.py::MainThread(13096), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[1.1943616867065430] 2020-03-22 03:00:22,851 - WARNING - musicbot.config | In config.py::MainThread(1616), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1943616867065430] 2020-03-22 03:00:22,851 - INFO - musicbot.config | In config.py::MainThread(1616), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.1973812580108643] 2020-03-22 03:00:22,854 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 225 in _setup_logging: Set logging level to INFO
+[1.1993722915649414] 2020-03-22 03:00:22,856 - DEBUG - musicbot.json | In json.py::MainThread(1616), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2263433933258057] 2020-03-22 03:00:22,883 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 90 in __init__: Starting MusicBot version_unknown
+[1.2273430824279785] 2020-03-22 03:00:22,884 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.3550763130187988] 2020-03-22 03:00:26,012 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 951 in on_ready: Connection established, ready to go.
+[4.3550763130187988] 2020-03-22 03:00:26,012 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 342 in _cache_app_info: Caching app info
+[4.5748939514160156] 2020-03-22 03:00:26,232 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 789 in _scheck_server_permissions: Checking server permissions
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 797 in _scheck_configs: Validating config
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.config | In config.py::MainThread(1616), line 236 in async_validate: Validating options...
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.bot | In bot.py::MainThread(1616), line 800 in _scheck_configs: Validating permissions config
+[4.5768930912017822] 2020-03-22 03:00:26,234 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1616), line 94 in async_validate: Validating permissions...
+[4.5778923034667969] 2020-03-22 03:00:26,235 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.5778923034667969] 2020-03-22 03:00:26,235 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.5788910388946533] 2020-03-22 03:00:26,236 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 979 in on_ready: Guild List:
+[4.5798900127410889] 2020-03-22 03:00:26,237 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 983 in on_ready:  - あの
+[4.5808892250061035] 2020-03-22 03:00:26,238 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 1039 in on_ready: Not bound to any text channels
+[4.5808892250061035] 2020-03-22 03:00:26,238 - INFO - musicbot.bot | In bot.py::MainThread(1616), line 1065 in on_ready: Not autojoining any voice channels
+[1.2519950866699219] 2020-03-22 03:15:11,711 - WARNING - musicbot.config | In config.py::MainThread(13224), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.2519950866699219] 2020-03-22 03:15:11,711 - INFO - musicbot.config | In config.py::MainThread(13224), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.2539944648742676] 2020-03-22 03:15:11,713 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 225 in _setup_logging: Set logging level to INFO
+[1.2559931278228760] 2020-03-22 03:15:11,715 - DEBUG - musicbot.json | In json.py::MainThread(13224), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2839772701263428] 2020-03-22 03:15:11,743 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 90 in __init__: Starting MusicBot version_unknown
+[1.2849762439727783] 2020-03-22 03:15:11,744 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.4716994762420654] 2020-03-22 03:15:14,931 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 951 in on_ready: Connection established, ready to go.
+[4.4716994762420654] 2020-03-22 03:15:14,931 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 342 in _cache_app_info: Caching app info
+[4.6972556114196777] 2020-03-22 03:15:15,156 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.7002282142639160] 2020-03-22 03:15:15,159 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 789 in _scheck_server_permissions: Checking server permissions
+[4.7002282142639160] 2020-03-22 03:15:15,159 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7012221813201904] 2020-03-22 03:15:15,160 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 797 in _scheck_configs: Validating config
+[4.7012221813201904] 2020-03-22 03:15:15,160 - DEBUG - musicbot.config | In config.py::MainThread(13224), line 236 in async_validate: Validating options...
+[4.7012221813201904] 2020-03-22 03:15:15,160 - DEBUG - musicbot.bot | In bot.py::MainThread(13224), line 800 in _scheck_configs: Validating permissions config
+[4.7022235393524170] 2020-03-22 03:15:15,161 - DEBUG - musicbot.permissions | In permissions.py::MainThread(13224), line 94 in async_validate: Validating permissions...
+[4.7022235393524170] 2020-03-22 03:15:15,161 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.7042205333709717] 2020-03-22 03:15:15,163 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.7052240371704102] 2020-03-22 03:15:15,164 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 979 in on_ready: Guild List:
+[4.7072203159332275] 2020-03-22 03:15:15,166 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 983 in on_ready:  - あの
+[4.7082185745239258] 2020-03-22 03:15:15,167 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 1039 in on_ready: Not bound to any text channels
+[4.7092180252075195] 2020-03-22 03:15:15,168 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 1065 in on_ready: Not autojoining any voice channels

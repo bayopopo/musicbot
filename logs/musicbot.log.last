@@ -1,0 +1,28 @@
+[28.964996338] 2020-03-21 22:32:07,555 - INFO - launcher: Starting sanity checks
+[28.964996338] 2020-03-21 22:32:07,555 - INFO - launcher: Checking for Python 3.5+
+[28.964996338] 2020-03-21 22:32:07,555 - INFO - launcher: Checking console encoding
+[28.964996338] 2020-03-21 22:32:07,555 - INFO - launcher: Setting console encoding to UTF-8
+[29.964447021] 2020-03-21 22:32:07,556 - INFO - launcher: Ensuring we're in the right environment
+[30.964374542] 2020-03-21 22:32:07,557 - INFO - launcher: Adding local bins/ folder to path
+[475.677967072] 2020-03-21 22:32:08,002 - INFO - launcher: Required checks passed.
+[475.677967072] 2020-03-21 22:32:08,002 - INFO - launcher: Optional checks passed.
+[476.677656174] 2020-03-21 22:32:08,003 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0265939235687256] 2020-03-21 22:32:08,553 - WARNING - musicbot.config | In config.py::MainThread(10892), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0265939235687256] 2020-03-21 22:32:08,553 - INFO - musicbot.config | In config.py::MainThread(10892), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0275933742523193] 2020-03-21 22:32:08,554 - DEBUG - musicbot.bot | In bot.py::MainThread(10892), line 225 in _setup_logging: Set logging level to INFO
+[1.0295922756195068] 2020-03-21 22:32:08,556 - DEBUG - musicbot.json | In json.py::MainThread(10892), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0555906295776367] 2020-03-21 22:32:08,582 - INFO - musicbot.bot | In bot.py::MainThread(10892), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[1.0565948486328125] 2020-03-21 22:32:08,583 - INFO - musicbot.bot | In bot.py::MainThread(10892), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[1.929247618] launcher-INFO: 
+An error has occured:
+  Problem:
+    Bot cannot login, bad credentials.
+
+  Solution:
+    Fix your token in the options file.  Remember that each field should be on their own line.
+
+
+[1.931215525] launcher-INFO: All done.
