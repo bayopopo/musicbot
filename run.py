@@ -435,4 +435,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    from musicbot import MusicBot
+    m = MusicBot()
+    m.run()
