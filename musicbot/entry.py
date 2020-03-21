@@ -268,7 +268,7 @@ class URLPlaylistEntry(BasePlaylistEntry):
 
     async def get_mean_volume(self, input_file):
         log.debug('Calculating mean volume of {0}'.format(input_file))
-        cmd = '"' + 'bin/ffmpeg' + '" -i "' + input_file + '" -af "volumedetect" -f null /dev/null'
+        cmd = '"' + self.get('ffmpeg') + '" -i "' + input_file + '" -af "volumedetect" -f null /dev/null'
         output = await self.run_command(cmd)
         output = output.decode("utf-8")
         # print('----', output)
