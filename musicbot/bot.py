@@ -1300,12 +1300,12 @@ class MusicBot(discord.Client):
             )
         return True
 
-    async def cmd_play(self, message, player, channel, author, permissions, leftover_args, song_url):
+    async def cmd_sg(self, message, player, channel, author, permissions, leftover_args, song_url):
         """
         Usage:
-            {command_prefix}play song_link
-            {command_prefix}play text to search for
-            {command_prefix}play spotify_uri
+            {command_prefix}sg song_link
+            {command_prefix}sg text to search for
+            {command_prefix}sg spotify_uri
 
         Adds the song to the playlist.  If a link is not provided, the first
         result from a youtube search is added to the queue.
@@ -1476,7 +1476,7 @@ class MusicBot(discord.Client):
 
                 if info['extractor'].lower() in ['youtube:playlist', 'soundcloud:set', 'bandcamp:album']:
                     try:
-                        return await self._cmd_play_playlist_async(player, channel, author, permissions, song_url, info['extractor'])
+                        return await self._cmd_sg_playlist_async(player, channel, author, permissions, song_url, info['extractor'])
                     except exceptions.CommandError:
                         raise
                     except Exception as e:
@@ -1579,7 +1579,7 @@ class MusicBot(discord.Client):
 
         return Response(reply_text, delete_after=30)
 
-    async def _cmd_play_playlist_async(self, player, channel, author, permissions, playlist_url, extractor_type):
+    async def _cmd_sg_playlist_async(self, player, channel, author, permissions, playlist_url, extractor_type):
         """
         Secret handler to use the async wizardry to make playlist queuing non-"blocking"
         """
@@ -1892,10 +1892,10 @@ class MusicBot(discord.Client):
                 delete_after=30
             )
 
-    async def cmd_summon(self, channel, guild, author, voice_channel):
+    async def cmd_ms(self, channel, guild, author, voice_channel):
         """
         Usage:
-            {command_prefix}summon
+            {command_prefix}musicstart
 
         Call the bot to the summoner's voice channel.
         """
@@ -2523,10 +2523,10 @@ class MusicBot(discord.Client):
         return Response("Changed the bot's avatar.", delete_after=20)
 
 
-    async def cmd_disconnect(self, guild):
+    async def cmd_me(self, guild):
         """
         Usage:
-            {command_prefix}disconnect
+            {command_prefix}musicend
         
         Forces the bot leave the current voice channel.
         """

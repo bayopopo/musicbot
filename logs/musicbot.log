@@ -160,3 +160,517 @@ FileNotFoundError: [WinError 3] 指定されたパスが見つかりません。
 [4.7072203159332275] 2020-03-22 03:15:15,166 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 983 in on_ready:  - あの
 [4.7082185745239258] 2020-03-22 03:15:15,167 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 1039 in on_ready: Not bound to any text channels
 [4.7092180252075195] 2020-03-22 03:15:15,168 - INFO - musicbot.bot | In bot.py::MainThread(13224), line 1065 in on_ready: Not autojoining any voice channels
+[10.7523858547210693] 2020-03-23 21:36:59,396 - WARNING - musicbot.config | In config.py::MainThread(4052), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[10.7573988437652588] 2020-03-23 21:36:59,401 - INFO - musicbot.config | In config.py::MainThread(4052), line 132 in run_checks: Using i18n: config/i18n/en.json
+[10.7773869037628174] 2020-03-23 21:36:59,421 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 225 in _setup_logging: Set logging level to INFO
+[10.7833809852600098] 2020-03-23 21:36:59,427 - DEBUG - musicbot.json | In json.py::MainThread(4052), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[10.8384127616882324] 2020-03-23 21:36:59,482 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 90 in __init__: Starting MusicBot version_unknown
+[10.8394119739532471] 2020-03-23 21:36:59,483 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[14.4292588233947754] 2020-03-23 21:37:03,073 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 951 in on_ready: Connection established, ready to go.
+[14.4292588233947754] 2020-03-23 21:37:03,073 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 342 in _cache_app_info: Caching app info
+[14.7469751834869385] 2020-03-23 21:37:03,390 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[14.8066911697387695] 2020-03-23 21:37:03,450 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 789 in _scheck_server_permissions: Checking server permissions
+[14.8066911697387695] 2020-03-23 21:37:03,450 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[14.8066911697387695] 2020-03-23 21:37:03,450 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 797 in _scheck_configs: Validating config
+[14.8066911697387695] 2020-03-23 21:37:03,450 - DEBUG - musicbot.config | In config.py::MainThread(4052), line 236 in async_validate: Validating options...
+[14.8066911697387695] 2020-03-23 21:37:03,450 - DEBUG - musicbot.bot | In bot.py::MainThread(4052), line 800 in _scheck_configs: Validating permissions config
+[14.8066911697387695] 2020-03-23 21:37:03,450 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4052), line 94 in async_validate: Validating permissions...
+[14.8066911697387695] 2020-03-23 21:37:03,450 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[14.8076901435852051] 2020-03-23 21:37:03,451 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[14.8089332580566406] 2020-03-23 21:37:03,452 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 979 in on_ready: Guild List:
+[14.8095557689666748] 2020-03-23 21:37:03,453 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 983 in on_ready:  - あの
+[14.8095557689666748] 2020-03-23 21:37:03,453 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 1039 in on_ready: Not bound to any text channels
+[14.8105576038360596] 2020-03-23 21:37:03,454 - INFO - musicbot.bot | In bot.py::MainThread(4052), line 1065 in on_ready: Not autojoining any voice channels
+[1.0524413585662842] 2020-03-23 21:46:12,119 - WARNING - musicbot.config | In config.py::MainThread(5276), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0524413585662842] 2020-03-23 21:46:12,119 - INFO - musicbot.config | In config.py::MainThread(5276), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0554704666137695] 2020-03-23 21:46:12,122 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 225 in _setup_logging: Set logging level to INFO
+[1.0574603080749512] 2020-03-23 21:46:12,124 - DEBUG - musicbot.json | In json.py::MainThread(5276), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0834419727325439] 2020-03-23 21:46:12,150 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 90 in __init__: Starting MusicBot version_unknown
+[1.0844411849975586] 2020-03-23 21:46:12,151 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.4883286952972412] 2020-03-23 21:46:15,555 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 951 in on_ready: Connection established, ready to go.
+[4.4893286228179932] 2020-03-23 21:46:15,556 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 342 in _cache_app_info: Caching app info
+[4.7208631038665771] 2020-03-23 21:46:15,787 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.7228641510009766] 2020-03-23 21:46:15,789 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 789 in _scheck_server_permissions: Checking server permissions
+[4.7238609790802002] 2020-03-23 21:46:15,790 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7238609790802002] 2020-03-23 21:46:15,790 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 797 in _scheck_configs: Validating config
+[4.7238609790802002] 2020-03-23 21:46:15,790 - DEBUG - musicbot.config | In config.py::MainThread(5276), line 236 in async_validate: Validating options...
+[4.7238609790802002] 2020-03-23 21:46:15,790 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 800 in _scheck_configs: Validating permissions config
+[4.7248604297637939] 2020-03-23 21:46:15,791 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5276), line 94 in async_validate: Validating permissions...
+[4.7248604297637939] 2020-03-23 21:46:15,791 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.7268590927124023] 2020-03-23 21:46:15,793 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.7278373241424561] 2020-03-23 21:46:15,794 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 979 in on_ready: Guild List:
+[4.7288341522216797] 2020-03-23 21:46:15,795 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 983 in on_ready:  - あの
+[4.7298319339752197] 2020-03-23 21:46:15,796 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 1039 in on_ready: Not bound to any text channels
+[4.7318348884582520] 2020-03-23 21:46:15,798 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 1065 in on_ready: Not autojoining any voice channels
+[23.3968451023101807] 2020-03-23 21:46:34,463 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[24.2926137447357178] 2020-03-23 21:46:35,359 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[24.5503098964691162] 2020-03-23 21:46:35,617 - WARNING - musicbot.entry | In entry.py::MainThread(5276), line 136 in _deserialize: Cannot find channel in an entry loaded from persistent queue. Chennel id: 627791016862285844
+[24.5633015632629395] 2020-03-23 21:46:35,630 - DEBUG - musicbot.bot | In bot.py::MainThread(5276), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[24.5633015632629395] 2020-03-23 21:46:35,630 - INFO - musicbot.bot | In bot.py::MainThread(5276), line 1935 in cmd_ms: Joining あの/bot_test
+[24.5658071041107178] 2020-03-23 21:46:35,632 - DEBUG - musicbot.entry | In entry.py::MainThread(5276), line 56 in get_ready_future: Created future for None
+[24.5668070316314697] 2020-03-23 21:46:35,633 - INFO - musicbot.entry | In entry.py::MainThread(5276), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[26.5496697425842285] 2020-03-23 21:46:37,616 - INFO - musicbot.entry | In entry.py::MainThread(5276), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[26.5516815185546875] 2020-03-23 21:46:37,618 - FFMPEG - musicbot.player | In player.py::MainThread(5276), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[1.1733255386352539] 2020-03-23 21:49:55,232 - WARNING - musicbot.config | In config.py::MainThread(4196), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1733255386352539] 2020-03-23 21:49:55,232 - INFO - musicbot.config | In config.py::MainThread(4196), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.1753239631652832] 2020-03-23 21:49:55,234 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 225 in _setup_logging: Set logging level to INFO
+[1.1773231029510498] 2020-03-23 21:49:55,236 - DEBUG - musicbot.json | In json.py::MainThread(4196), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.2053072452545166] 2020-03-23 21:49:55,264 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 90 in __init__: Starting MusicBot version_unknown
+[1.2063059806823730] 2020-03-23 21:49:55,265 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.7108566761016846] 2020-03-23 21:49:58,769 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 951 in on_ready: Connection established, ready to go.
+[4.7117989063262939] 2020-03-23 21:49:58,770 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 342 in _cache_app_info: Caching app info
+[4.9705977439880371] 2020-03-23 21:49:59,029 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.9735949039459229] 2020-03-23 21:49:59,032 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.9745693206787109] 2020-03-23 21:49:59,033 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 789 in _scheck_server_permissions: Checking server permissions
+[4.9745693206787109] 2020-03-23 21:49:59,033 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.9745693206787109] 2020-03-23 21:49:59,033 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 797 in _scheck_configs: Validating config
+[4.9745693206787109] 2020-03-23 21:49:59,033 - DEBUG - musicbot.config | In config.py::MainThread(4196), line 236 in async_validate: Validating options...
+[4.9745693206787109] 2020-03-23 21:49:59,033 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 800 in _scheck_configs: Validating permissions config
+[4.9745693206787109] 2020-03-23 21:49:59,033 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4196), line 94 in async_validate: Validating permissions...
+[4.9745693206787109] 2020-03-23 21:49:59,033 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.9755859375000000] 2020-03-23 21:49:59,034 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.9765679836273193] 2020-03-23 21:49:59,035 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 979 in on_ready: Guild List:
+[4.9775669574737549] 2020-03-23 21:49:59,036 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 983 in on_ready:  - あの
+[4.9785680770874023] 2020-03-23 21:49:59,037 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 1039 in on_ready: Not bound to any text channels
+[4.9795746803283691] 2020-03-23 21:49:59,038 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 1065 in on_ready: Not autojoining any voice channels
+[220.3063571453094482] 2020-03-23 21:53:34,365 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[221.2241697311401367] 2020-03-23 21:53:35,283 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[221.3470964431762695] 2020-03-23 21:53:35,406 - WARNING - musicbot.entry | In entry.py::MainThread(4196), line 136 in _deserialize: Cannot find channel in an entry loaded from persistent queue. Chennel id: 627791016862285844
+[221.3591074943542480] 2020-03-23 21:53:35,418 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[221.3591074943542480] 2020-03-23 21:53:35,418 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 1935 in cmd_ms: Joining あの/bot_test
+[221.3611068725585938] 2020-03-23 21:53:35,420 - DEBUG - musicbot.entry | In entry.py::MainThread(4196), line 56 in get_ready_future: Created future for None
+[221.3621206283569336] 2020-03-23 21:53:35,421 - INFO - musicbot.entry | In entry.py::MainThread(4196), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[223.5443875789642334] 2020-03-23 21:53:37,603 - INFO - musicbot.entry | In entry.py::MainThread(4196), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[223.5473861694335938] 2020-03-23 21:53:37,606 - FFMPEG - musicbot.player | In player.py::MainThread(4196), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[247.8263041973114014] 2020-03-23 21:54:01,885 - INFO - musicbot.bot | In bot.py::MainThread(4196), line 2706 in on_message: 258117009714184193/popopo#4752: !play https://www.nicovideo.jp/watch/sm36457262
+[251.9172308444976807] 2020-03-23 21:54:05,976 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 1408 in cmd_play: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.0c5wphoc7i_q7nd63_36f89yoivz4f3', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.0wcvph5jub_q7nd63_m0uzln4koshi', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26105, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[253.3125627040863037] 2020-03-23 21:54:07,371 - DEBUG - musicbot.entry | In entry.py::MainThread(4196), line 56 in get_ready_future: Created future for None
+[253.3135495185852051] 2020-03-23 21:54:07,372 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 624 in on_player_entry_added: Running on_player_entry_added
+[253.3135495185852051] 2020-03-23 21:54:07,372 - DEBUG - musicbot.bot | In bot.py::MainThread(4196), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[253.3145489692687988] 2020-03-23 21:54:07,373 - INFO - musicbot.entry | In entry.py::MainThread(4196), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[255.3182001113891602] 2020-03-23 21:54:09,377 - DEBUG - musicbot.entry | In entry.py::MainThread(4196), line 56 in get_ready_future: Created future for None
+[256.1180195808410645] 2020-03-23 21:54:10,177 - INFO - musicbot.entry | In entry.py::MainThread(4196), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[256.1200184822082520] 2020-03-23 21:54:10,179 - FFMPEG - musicbot.player | In player.py::MainThread(4196), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[1.0606746673583984] 2020-03-23 21:58:29,589 - WARNING - musicbot.config | In config.py::MainThread(9020), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0616736412048340] 2020-03-23 21:58:29,590 - INFO - musicbot.config | In config.py::MainThread(9020), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0636730194091797] 2020-03-23 21:58:29,592 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 225 in _setup_logging: Set logging level to INFO
+[1.0656912326812744] 2020-03-23 21:58:29,594 - DEBUG - musicbot.json | In json.py::MainThread(9020), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0926744937896729] 2020-03-23 21:58:29,621 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 90 in __init__: Starting MusicBot version_unknown
+[1.0926744937896729] 2020-03-23 21:58:29,621 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.8043310642242432] 2020-03-23 21:58:33,333 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 951 in on_ready: Connection established, ready to go.
+[4.8043310642242432] 2020-03-23 21:58:33,333 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 342 in _cache_app_info: Caching app info
+[5.0646884441375732] 2020-03-23 21:58:33,593 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.0686852931976318] 2020-03-23 21:58:33,597 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 783 in _scheck_ensure_env: Deleted old audio cache
+[5.0686852931976318] 2020-03-23 21:58:33,597 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 789 in _scheck_server_permissions: Checking server permissions
+[5.0686852931976318] 2020-03-23 21:58:33,597 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.0696868896484375] 2020-03-23 21:58:33,598 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 797 in _scheck_configs: Validating config
+[5.0696868896484375] 2020-03-23 21:58:33,598 - DEBUG - musicbot.config | In config.py::MainThread(9020), line 236 in async_validate: Validating options...
+[5.0696868896484375] 2020-03-23 21:58:33,598 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 800 in _scheck_configs: Validating permissions config
+[5.0696868896484375] 2020-03-23 21:58:33,598 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9020), line 94 in async_validate: Validating permissions...
+[5.0696868896484375] 2020-03-23 21:58:33,598 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[5.0706863403320312] 2020-03-23 21:58:33,599 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[5.0716865062713623] 2020-03-23 21:58:33,600 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 979 in on_ready: Guild List:
+[5.0727028846740723] 2020-03-23 21:58:33,601 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 983 in on_ready:  - あの
+[5.0736827850341797] 2020-03-23 21:58:33,602 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 1039 in on_ready: Not bound to any text channels
+[5.0746831893920898] 2020-03-23 21:58:33,603 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 1065 in on_ready: Not autojoining any voice channels
+[5.0756824016571045] 2020-03-23 21:58:33,604 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 266 in _join_startup_channels: Found resumable voice channel あの/bot_test
+[5.0756824016571045] 2020-03-23 21:58:33,604 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 281 in _join_startup_channels: Attempting to join あの/bot_test
+[6.0448944568634033] 2020-03-23 21:58:34,573 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[6.1833148002624512] 2020-03-23 21:58:34,712 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[6.1833148002624512] 2020-03-23 21:58:34,712 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 297 in _join_startup_channels: Joined あの/bot_test
+[6.1843147277832031] 2020-03-23 21:58:34,713 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for None
+[6.1853141784667969] 2020-03-23 21:58:34,714 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[10.6982765197753906] 2020-03-23 21:58:39,227 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[10.7012898921966553] 2020-03-23 21:58:39,230 - FFMPEG - musicbot.player | In player.py::MainThread(9020), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[242.6623971462249756] 2020-03-23 22:02:31,191 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[248.4487128257751465] 2020-03-23 22:02:36,977 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[249.3504576683044434] 2020-03-23 22:02:37,879 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[249.3684597015380859] 2020-03-23 22:02:37,897 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[249.3684597015380859] 2020-03-23 22:02:37,897 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 1935 in cmd_ms: Joining あの/bot_test
+[249.3704452514648438] 2020-03-23 22:02:37,899 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for None
+[249.3714447021484375] 2020-03-23 22:02:37,900 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 207 in _download: Download cached: https://www.nicovideo.jp/watch/sm36457262
+[249.3714447021484375] 2020-03-23 22:02:37,900 - FFMPEG - musicbot.player | In player.py::MainThread(9020), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[272.7619013786315918] 2020-03-23 22:03:01,290 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[276.0856862068176270] 2020-03-23 22:03:04,614 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.shsncx2t5r_q7ndl2_14x8j2gids16h', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.c9fzkdqtbn_q7ndl1_339u4a70u5a4g', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26107, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[277.5165462493896484] 2020-03-23 22:03:06,045 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for None
+[277.5175492763519287] 2020-03-23 22:03:06,046 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 624 in on_player_entry_added: Running on_player_entry_added
+[277.5185487270355225] 2020-03-23 22:03:06,047 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[277.5195484161376953] 2020-03-23 22:03:06,048 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 207 in _download: Download cached: https://www.nicovideo.jp/watch/sm36457262
+[279.5166697502136230] 2020-03-23 22:03:08,045 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for audio_cache\niconico-sm36457262-_.mp4
+[279.5166697502136230] 2020-03-23 22:03:08,045 - FFMPEG - musicbot.player | In player.py::MainThread(9020), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[449.3474073410034180] 2020-03-23 22:05:57,876 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[461.3543841838836670] 2020-03-23 22:06:09,883 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[462.4312403202056885] 2020-03-23 22:06:10,960 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[462.4602231979370117] 2020-03-23 22:06:10,989 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[462.4602231979370117] 2020-03-23 22:06:10,989 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 1935 in cmd_ms: Joining あの/bot_test
+[462.4632389545440674] 2020-03-23 22:06:10,992 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for None
+[462.4642386436462402] 2020-03-23 22:06:10,993 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 207 in _download: Download cached: https://www.nicovideo.jp/watch/sm36457262
+[462.4652202129364014] 2020-03-23 22:06:10,994 - FFMPEG - musicbot.player | In player.py::MainThread(9020), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[495.7116315364837646] 2020-03-23 22:06:44,240 - INFO - musicbot.bot | In bot.py::MainThread(9020), line 2706 in on_message: 258117009714184193/popopo#4752: !sg ヤマガタ電機
+[498.4640278816223145] 2020-03-23 22:06:46,993 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 1408 in cmd_sg: {'_type': 'url', 'url': 'ytsearch:ヤマガタ電機', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ヤマガタ電機', 'webpage_url_basename': 'ヤマガタ電機', 'extractor_key': 'Generic'}
+[501.9701032638549805] 2020-03-23 22:06:50,499 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for None
+[501.9721024036407471] 2020-03-23 22:06:50,501 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 624 in on_player_entry_added: Running on_player_entry_added
+[501.9721024036407471] 2020-03-23 22:06:50,501 - DEBUG - musicbot.bot | In bot.py::MainThread(9020), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[501.9721024036407471] 2020-03-23 22:06:50,501 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[503.4498944282531738] 2020-03-23 22:06:51,978 - INFO - musicbot.entry | In entry.py::MainThread(9020), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[503.9698181152343750] 2020-03-23 22:06:52,498 - DEBUG - musicbot.entry | In entry.py::MainThread(9020), line 56 in get_ready_future: Created future for audio_cache\youtube-3q3_WS3d93I-_.webm
+[503.9698181152343750] 2020-03-23 22:06:52,498 - FFMPEG - musicbot.player | In player.py::MainThread(9020), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[1.0589063167572021] 2020-03-23 22:09:56,422 - WARNING - musicbot.config | In config.py::MainThread(3300), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0589063167572021] 2020-03-23 22:09:56,422 - INFO - musicbot.config | In config.py::MainThread(3300), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0609047412872314] 2020-03-23 22:09:56,424 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 225 in _setup_logging: Set logging level to INFO
+[1.0628929138183594] 2020-03-23 22:09:56,426 - DEBUG - musicbot.json | In json.py::MainThread(3300), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0898802280426025] 2020-03-23 22:09:56,453 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 90 in __init__: Starting MusicBot version_unknown
+[1.0908927917480469] 2020-03-23 22:09:56,454 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.6765313148498535] 2020-03-23 22:10:00,040 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 951 in on_ready: Connection established, ready to go.
+[4.6765313148498535] 2020-03-23 22:10:00,040 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 342 in _cache_app_info: Caching app info
+[4.9508283138275146] 2020-03-23 22:10:00,314 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.9548070430755615] 2020-03-23 22:10:00,318 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.9548070430755615] 2020-03-23 22:10:00,318 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 789 in _scheck_server_permissions: Checking server permissions
+[4.9548070430755615] 2020-03-23 22:10:00,318 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.9548070430755615] 2020-03-23 22:10:00,318 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 797 in _scheck_configs: Validating config
+[4.9548070430755615] 2020-03-23 22:10:00,318 - DEBUG - musicbot.config | In config.py::MainThread(3300), line 236 in async_validate: Validating options...
+[4.9548070430755615] 2020-03-23 22:10:00,318 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 800 in _scheck_configs: Validating permissions config
+[4.9558250904083252] 2020-03-23 22:10:00,319 - DEBUG - musicbot.permissions | In permissions.py::MainThread(3300), line 94 in async_validate: Validating permissions...
+[4.9558250904083252] 2020-03-23 22:10:00,319 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.9568035602569580] 2020-03-23 22:10:00,320 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.9578044414520264] 2020-03-23 22:10:00,321 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 979 in on_ready: Guild List:
+[4.9588050842285156] 2020-03-23 22:10:00,322 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 983 in on_ready:  - あの
+[4.9598021507263184] 2020-03-23 22:10:00,323 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 1039 in on_ready: Not bound to any text channels
+[4.9608013629913330] 2020-03-23 22:10:00,324 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 1065 in on_ready: Not autojoining any voice channels
+[17.0825834274291992] 2020-03-23 22:10:12,446 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[18.0847127437591553] 2020-03-23 22:10:13,448 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[18.2026438713073730] 2020-03-23 22:10:13,566 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[18.2036433219909668] 2020-03-23 22:10:13,567 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 1935 in cmd_ms: Joining あの/bot_test
+[18.2046427726745605] 2020-03-23 22:10:13,568 - DEBUG - musicbot.entry | In entry.py::MainThread(3300), line 56 in get_ready_future: Created future for None
+[18.2056424617767334] 2020-03-23 22:10:13,569 - INFO - musicbot.entry | In entry.py::MainThread(3300), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[20.4250905513763428] 2020-03-23 22:10:15,789 - INFO - musicbot.entry | In entry.py::MainThread(3300), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[20.4301052093505859] 2020-03-23 22:10:15,794 - FFMPEG - musicbot.player | In player.py::MainThread(3300), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[49.7207958698272705] 2020-03-23 22:10:45,084 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[53.6861724853515625] 2020-03-23 22:10:49,050 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc1256fb3d6.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.o22ei3wv17_q7ndxz_3lw13bgb658gz', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.gw7wsdai2a_q7ndxy_8nbnefp41p4g', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26108, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[55.0546154975891113] 2020-03-23 22:10:50,418 - DEBUG - musicbot.entry | In entry.py::MainThread(3300), line 56 in get_ready_future: Created future for None
+[55.0556213855743408] 2020-03-23 22:10:50,419 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 624 in on_player_entry_added: Running on_player_entry_added
+[55.0556213855743408] 2020-03-23 22:10:50,419 - DEBUG - musicbot.bot | In bot.py::MainThread(3300), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[55.0566141605377197] 2020-03-23 22:10:50,420 - INFO - musicbot.entry | In entry.py::MainThread(3300), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[57.0615873336791992] 2020-03-23 22:10:52,425 - DEBUG - musicbot.entry | In entry.py::MainThread(3300), line 56 in get_ready_future: Created future for None
+[57.6490950584411621] 2020-03-23 22:10:53,013 - INFO - musicbot.entry | In entry.py::MainThread(3300), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[57.6500797271728516] 2020-03-23 22:10:53,014 - FFMPEG - musicbot.player | In player.py::MainThread(3300), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[169.6648612022399902] 2020-03-23 22:12:45,028 - INFO - musicbot.bot | In bot.py::MainThread(3300), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[1.0562310218811035] 2020-03-23 22:12:56,418 - WARNING - musicbot.config | In config.py::MainThread(5772), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0562310218811035] 2020-03-23 22:12:56,418 - INFO - musicbot.config | In config.py::MainThread(5772), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0582299232482910] 2020-03-23 22:12:56,420 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 225 in _setup_logging: Set logging level to INFO
+[1.0602109432220459] 2020-03-23 22:12:56,422 - DEBUG - musicbot.json | In json.py::MainThread(5772), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0871951580047607] 2020-03-23 22:12:56,449 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 90 in __init__: Starting MusicBot version_unknown
+[1.0881950855255127] 2020-03-23 22:12:56,450 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.5431165695190430] 2020-03-23 22:12:59,905 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 951 in on_ready: Connection established, ready to go.
+[4.5431165695190430] 2020-03-23 22:12:59,905 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 342 in _cache_app_info: Caching app info
+[4.7737691402435303] 2020-03-23 22:13:00,136 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.7797360420227051] 2020-03-23 22:13:00,142 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.7807343006134033] 2020-03-23 22:13:00,143 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 789 in _scheck_server_permissions: Checking server permissions
+[4.7807343006134033] 2020-03-23 22:13:00,143 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7807343006134033] 2020-03-23 22:13:00,143 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 797 in _scheck_configs: Validating config
+[4.7817330360412598] 2020-03-23 22:13:00,144 - DEBUG - musicbot.config | In config.py::MainThread(5772), line 236 in async_validate: Validating options...
+[4.7817330360412598] 2020-03-23 22:13:00,144 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 800 in _scheck_configs: Validating permissions config
+[4.7817330360412598] 2020-03-23 22:13:00,144 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5772), line 94 in async_validate: Validating permissions...
+[4.7827637195587158] 2020-03-23 22:13:00,145 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.7837371826171875] 2020-03-23 22:13:00,146 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.7857358455657959] 2020-03-23 22:13:00,148 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 979 in on_ready: Guild List:
+[4.7877452373504639] 2020-03-23 22:13:00,150 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 983 in on_ready:  - あの
+[4.7887315750122070] 2020-03-23 22:13:00,151 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 1039 in on_ready: Not bound to any text channels
+[4.7907462120056152] 2020-03-23 22:13:00,153 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 1065 in on_ready: Not autojoining any voice channels
+[12.3457856178283691] 2020-03-23 22:13:07,708 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[13.2103323936462402] 2020-03-23 22:13:08,572 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[13.3392899036407471] 2020-03-23 22:13:08,701 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[13.3392899036407471] 2020-03-23 22:13:08,701 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 1935 in cmd_ms: Joining あの/bot_test
+[13.3412885665893555] 2020-03-23 22:13:08,703 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for None
+[13.3422889709472656] 2020-03-23 22:13:08,704 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[17.2925004959106445] 2020-03-23 22:13:12,654 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[17.2945098876953125] 2020-03-23 22:13:12,656 - FFMPEG - musicbot.player | In player.py::MainThread(5772), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[25.6104278564453125] 2020-03-23 22:13:20,972 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[28.1111843585968018] 2020-03-23 22:13:23,473 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc1256fb3d6.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.gw7s9oyr1h_q7ne29_ly374awk8z1l', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.s5jkyww6y3_q7ne29_b302961n3fbr', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26109, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[29.0514206886291504] 2020-03-23 22:13:24,413 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for None
+[29.0534014701843262] 2020-03-23 22:13:24,415 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 624 in on_player_entry_added: Running on_player_entry_added
+[29.0534014701843262] 2020-03-23 22:13:24,415 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[29.0554015636444092] 2020-03-23 22:13:24,417 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 207 in _download: Download cached: https://www.nicovideo.jp/watch/sm36457262
+[31.0405652523040771] 2020-03-23 22:13:26,403 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for audio_cache\niconico-sm36457262-_.mp4
+[31.0405652523040771] 2020-03-23 22:13:26,403 - FFMPEG - musicbot.player | In player.py::MainThread(5772), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[94.6084072589874268] 2020-03-23 22:14:29,970 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 2706 in on_message: 258117009714184193/popopo#4752: !sg ヤマガタ電機
+[96.6456863880157471] 2020-03-23 22:14:32,008 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 1408 in cmd_sg: {'_type': 'url', 'url': 'ytsearch:ヤマガタ電機', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ヤマガタ電機', 'webpage_url_basename': 'ヤマガタ電機', 'extractor_key': 'Generic'}
+[99.4001436233520508] 2020-03-23 22:14:34,762 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for None
+[99.4021418094635010] 2020-03-23 22:14:34,764 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 624 in on_player_entry_added: Running on_player_entry_added
+[99.4021418094635010] 2020-03-23 22:14:34,764 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[99.4031414985656738] 2020-03-23 22:14:34,765 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[100.5529701709747314] 2020-03-23 22:14:35,915 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[101.4005627632141113] 2020-03-23 22:14:36,763 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for audio_cache\youtube-3q3_WS3d93I-_.webm
+[101.4005627632141113] 2020-03-23 22:14:36,763 - FFMPEG - musicbot.player | In player.py::MainThread(5772), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[352.2537956237792969] 2020-03-23 22:18:47,616 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 2706 in on_message: 258117009714184193/popopo#4752: !sg ヤマガタ電機
+[353.9942288398742676] 2020-03-23 22:18:49,356 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 1408 in cmd_sg: {'_type': 'url', 'url': 'ytsearch:ヤマガタ電機', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ヤマガタ電機', 'webpage_url_basename': 'ヤマガタ電機', 'extractor_key': 'Generic'}
+[356.6993045806884766] 2020-03-23 22:18:52,061 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for None
+[356.7002906799316406] 2020-03-23 22:18:52,062 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 624 in on_player_entry_added: Running on_player_entry_added
+[356.7002906799316406] 2020-03-23 22:18:52,062 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[356.7012891769409180] 2020-03-23 22:18:52,063 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 207 in _download: Download cached: https://www.youtube.com/watch?v=3q3_WS3d93I
+[358.7082319259643555] 2020-03-23 22:18:54,070 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for audio_cache\youtube-3q3_WS3d93I-_.webm
+[358.7082319259643555] 2020-03-23 22:18:54,070 - FFMPEG - musicbot.player | In player.py::MainThread(5772), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[376.6712148189544678] 2020-03-23 22:19:12,033 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 2706 in on_message: 258117009714184193/popopo#4752: !clear
+[405.5721957683563232] 2020-03-23 22:19:40,934 - INFO - musicbot.bot | In bot.py::MainThread(5772), line 2706 in on_message: 258117009714184193/popopo#4752: !sg ヤマガタ電機
+[407.0927519798278809] 2020-03-23 22:19:42,455 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 1408 in cmd_sg: {'_type': 'url', 'url': 'ytsearch:ヤマガタ電機', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ヤマガタ電機', 'webpage_url_basename': 'ヤマガタ電機', 'extractor_key': 'Generic'}
+[409.7121844291687012] 2020-03-23 22:19:45,074 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for None
+[409.7131817340850830] 2020-03-23 22:19:45,075 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 624 in on_player_entry_added: Running on_player_entry_added
+[409.7131817340850830] 2020-03-23 22:19:45,075 - DEBUG - musicbot.bot | In bot.py::MainThread(5772), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[409.7141721248626709] 2020-03-23 22:19:45,076 - INFO - musicbot.entry | In entry.py::MainThread(5772), line 207 in _download: Download cached: https://www.youtube.com/watch?v=3q3_WS3d93I
+[411.7143976688385010] 2020-03-23 22:19:47,076 - DEBUG - musicbot.entry | In entry.py::MainThread(5772), line 56 in get_ready_future: Created future for audio_cache\youtube-3q3_WS3d93I-_.webm
+[411.7143976688385010] 2020-03-23 22:19:47,076 - FFMPEG - musicbot.player | In player.py::MainThread(5772), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[1.1253707408905029] 2020-03-23 22:27:54,768 - WARNING - musicbot.config | In config.py::MainThread(6268), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.1253707408905029] 2020-03-23 22:27:54,768 - INFO - musicbot.config | In config.py::MainThread(6268), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.1283686161041260] 2020-03-23 22:27:54,771 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 225 in _setup_logging: Set logging level to INFO
+[1.1293683052062988] 2020-03-23 22:27:54,772 - DEBUG - musicbot.json | In json.py::MainThread(6268), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.1573519706726074] 2020-03-23 22:27:54,800 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 90 in __init__: Starting MusicBot version_unknown
+[1.1583509445190430] 2020-03-23 22:27:54,801 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.4490003585815430] 2020-03-23 22:27:58,092 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 951 in on_ready: Connection established, ready to go.
+[4.4490003585815430] 2020-03-23 22:27:58,092 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 342 in _cache_app_info: Caching app info
+[4.6801087856292725] 2020-03-23 22:27:58,323 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 789 in _scheck_server_permissions: Checking server permissions
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 797 in _scheck_configs: Validating config
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.config | In config.py::MainThread(6268), line 236 in async_validate: Validating options...
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 800 in _scheck_configs: Validating permissions config
+[4.6830542087554932] 2020-03-23 22:27:58,326 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6268), line 94 in async_validate: Validating permissions...
+[4.6840651035308838] 2020-03-23 22:27:58,327 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.6840651035308838] 2020-03-23 22:27:58,327 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.6850640773773193] 2020-03-23 22:27:58,328 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 979 in on_ready: Guild List:
+[4.6860530376434326] 2020-03-23 22:27:58,329 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 983 in on_ready:  - あの
+[4.6860530376434326] 2020-03-23 22:27:58,329 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 1039 in on_ready: Not bound to any text channels
+[4.6870529651641846] 2020-03-23 22:27:58,330 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 1065 in on_ready: Not autojoining any voice channels
+[54.7824556827545166] 2020-03-23 22:28:48,425 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[55.6611149311065674] 2020-03-23 22:28:49,304 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[55.7950372695922852] 2020-03-23 22:28:49,438 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[55.7950372695922852] 2020-03-23 22:28:49,438 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 1935 in cmd_ms: Joining あの/bot_test
+[55.7960367202758789] 2020-03-23 22:28:49,439 - DEBUG - musicbot.entry | In entry.py::MainThread(6268), line 56 in get_ready_future: Created future for None
+[55.7980353832244873] 2020-03-23 22:28:49,441 - INFO - musicbot.entry | In entry.py::MainThread(6268), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[57.5603837966918945] 2020-03-23 22:28:51,203 - INFO - musicbot.entry | In entry.py::MainThread(6268), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[57.5643811225891113] 2020-03-23 22:28:51,207 - FFMPEG - musicbot.player | In player.py::MainThread(6268), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[102.9625477790832520] 2020-03-23 22:29:36,605 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[106.4782168865203857] 2020-03-23 22:29:40,121 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.s5zoos3knz_q7netd_3d79k2b4w0xgu', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.shkhy3v5ed_q7netd_1ovd5q077ge30', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26118, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[107.5878922939300537] 2020-03-23 22:29:41,230 - DEBUG - musicbot.entry | In entry.py::MainThread(6268), line 56 in get_ready_future: Created future for None
+[107.5898902416229248] 2020-03-23 22:29:41,232 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 624 in on_player_entry_added: Running on_player_entry_added
+[107.5908904075622559] 2020-03-23 22:29:41,233 - DEBUG - musicbot.bot | In bot.py::MainThread(6268), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[107.5918900966644287] 2020-03-23 22:29:41,234 - INFO - musicbot.entry | In entry.py::MainThread(6268), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[109.5898175239562988] 2020-03-23 22:29:43,232 - DEBUG - musicbot.entry | In entry.py::MainThread(6268), line 56 in get_ready_future: Created future for None
+[109.6067969799041748] 2020-03-23 22:29:43,249 - INFO - musicbot.entry | In entry.py::MainThread(6268), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[109.6087968349456787] 2020-03-23 22:29:43,251 - FFMPEG - musicbot.player | In player.py::MainThread(6268), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[235.9536538124084473] 2020-03-23 22:31:49,596 - INFO - musicbot.bot | In bot.py::MainThread(6268), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[1.0531585216522217] 2020-03-23 22:34:13,139 - WARNING - musicbot.config | In config.py::MainThread(3228), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0531585216522217] 2020-03-23 22:34:13,139 - INFO - musicbot.config | In config.py::MainThread(3228), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0561566352844238] 2020-03-23 22:34:13,142 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 225 in _setup_logging: Set logging level to INFO
+[1.0581552982330322] 2020-03-23 22:34:13,144 - DEBUG - musicbot.json | In json.py::MainThread(3228), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0851399898529053] 2020-03-23 22:34:13,171 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 90 in __init__: Starting MusicBot version_unknown
+[1.0861573219299316] 2020-03-23 22:34:13,172 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.2719199657440186] 2020-03-23 22:34:16,358 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 951 in on_ready: Connection established, ready to go.
+[4.2719199657440186] 2020-03-23 22:34:16,358 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 342 in _cache_app_info: Caching app info
+[4.5245723724365234] 2020-03-23 22:34:16,610 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 789 in _scheck_server_permissions: Checking server permissions
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 797 in _scheck_configs: Validating config
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.config | In config.py::MainThread(3228), line 236 in async_validate: Validating options...
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 800 in _scheck_configs: Validating permissions config
+[4.5275199413299561] 2020-03-23 22:34:16,613 - DEBUG - musicbot.permissions | In permissions.py::MainThread(3228), line 94 in async_validate: Validating permissions...
+[4.5275199413299561] 2020-03-23 22:34:16,613 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.5285351276397705] 2020-03-23 22:34:16,614 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.5295181274414062] 2020-03-23 22:34:16,615 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 979 in on_ready: Guild List:
+[4.5295181274414062] 2020-03-23 22:34:16,615 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 983 in on_ready:  - あの
+[4.5305178165435791] 2020-03-23 22:34:16,616 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 1039 in on_ready: Not bound to any text channels
+[4.5305178165435791] 2020-03-23 22:34:16,616 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 1065 in on_ready: Not autojoining any voice channels
+[42.7550897598266602] 2020-03-23 22:34:54,841 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[43.4179797172546387] 2020-03-23 22:34:55,504 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[43.5348162651062012] 2020-03-23 22:34:55,621 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[43.5348162651062012] 2020-03-23 22:34:55,621 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 1935 in cmd_ms: Joining あの/bot_test
+[43.5368149280548096] 2020-03-23 22:34:55,623 - DEBUG - musicbot.entry | In entry.py::MainThread(3228), line 56 in get_ready_future: Created future for None
+[43.5378141403198242] 2020-03-23 22:34:55,624 - INFO - musicbot.entry | In entry.py::MainThread(3228), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[47.7794976234436035] 2020-03-23 22:34:59,865 - INFO - musicbot.entry | In entry.py::MainThread(3228), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[47.7814962863922119] 2020-03-23 22:34:59,867 - FFMPEG - musicbot.player | In player.py::MainThread(3228), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[57.8286585807800293] 2020-03-23 22:35:09,914 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[59.6769883632659912] 2020-03-23 22:35:11,763 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc1256fb3d6.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.gkmrxtkr0f_q7nf2m_2w2j5yuvrth4j', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc1256fb3d6.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.oi6gjm3tlh_q7nf2l_33mvm8rintdy3', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26122, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[60.4753026962280273] 2020-03-23 22:35:12,561 - DEBUG - musicbot.entry | In entry.py::MainThread(3228), line 56 in get_ready_future: Created future for None
+[60.4772846698760986] 2020-03-23 22:35:12,563 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 624 in on_player_entry_added: Running on_player_entry_added
+[60.4772846698760986] 2020-03-23 22:35:12,563 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[60.4782848358154297] 2020-03-23 22:35:12,564 - INFO - musicbot.entry | In entry.py::MainThread(3228), line 207 in _download: Download cached: https://www.nicovideo.jp/watch/sm36457262
+[62.4744694232940674] 2020-03-23 22:35:14,560 - DEBUG - musicbot.entry | In entry.py::MainThread(3228), line 56 in get_ready_future: Created future for audio_cache\niconico-sm36457262-_.mp4
+[62.4744694232940674] 2020-03-23 22:35:14,560 - FFMPEG - musicbot.player | In player.py::MainThread(3228), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[215.0233511924743652] 2020-03-23 22:37:47,109 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[573.2450067996978760] 2020-03-23 22:43:45,331 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 2979 in on_guild_join: Bot has been added to guild: 公開所
+[573.2510025501251221] 2020-03-23 22:43:45,337 - DEBUG - musicbot.bot | In bot.py::MainThread(3228), line 2988 in on_guild_join: Creating data folder for guild 641272624013639689
+[1.0583913326263428] 2020-03-23 22:47:10,613 - WARNING - musicbot.config | In config.py::MainThread(5268), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0583913326263428] 2020-03-23 22:47:10,613 - INFO - musicbot.config | In config.py::MainThread(5268), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0603899955749512] 2020-03-23 22:47:10,615 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 225 in _setup_logging: Set logging level to INFO
+[1.0633890628814697] 2020-03-23 22:47:10,618 - DEBUG - musicbot.json | In json.py::MainThread(5268), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0913856029510498] 2020-03-23 22:47:10,646 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 90 in __init__: Starting MusicBot version_unknown
+[1.0923895835876465] 2020-03-23 22:47:10,647 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.2851021289825439] 2020-03-23 22:47:13,840 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 951 in on_ready: Connection established, ready to go.
+[4.2851021289825439] 2020-03-23 22:47:13,840 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 342 in _cache_app_info: Caching app info
+[4.5272374153137207] 2020-03-23 22:47:14,082 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 789 in _scheck_server_permissions: Checking server permissions
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 797 in _scheck_configs: Validating config
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.config | In config.py::MainThread(5268), line 236 in async_validate: Validating options...
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 800 in _scheck_configs: Validating permissions config
+[4.5292356014251709] 2020-03-23 22:47:14,084 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5268), line 94 in async_validate: Validating permissions...
+[4.5292356014251709] 2020-03-23 22:47:14,084 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.5302350521087646] 2020-03-23 22:47:14,085 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.5302350521087646] 2020-03-23 22:47:14,085 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 979 in on_ready: Guild List:
+[4.5312342643737793] 2020-03-23 22:47:14,086 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 983 in on_ready:  - あの
+[4.5312342643737793] 2020-03-23 22:47:14,086 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 983 in on_ready:  - 公開所
+[4.5312342643737793] 2020-03-23 22:47:14,086 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1039 in on_ready: Not bound to any text channels
+[4.5312342643737793] 2020-03-23 22:47:14,086 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1065 in on_ready: Not autojoining any voice channels
+[801.5780022144317627] 2020-03-23 22:47:33,664 - INFO - musicbot.bot | In bot.py::MainThread(3228), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[24.1150996685028076] 2020-03-23 22:47:33,670 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[1.0292997360229492] 2020-03-23 22:50:32,679 - WARNING - musicbot.config | In config.py::MainThread(6900), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0292997360229492] 2020-03-23 22:50:32,679 - INFO - musicbot.config | In config.py::MainThread(6900), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0322980880737305] 2020-03-23 22:50:32,682 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 225 in _setup_logging: Set logging level to INFO
+[1.0332787036895752] 2020-03-23 22:50:32,683 - DEBUG - musicbot.json | In json.py::MainThread(6900), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0602815151214600] 2020-03-23 22:50:32,710 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 90 in __init__: Starting MusicBot version_unknown
+[1.0612812042236328] 2020-03-23 22:50:32,711 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.4883208274841309] 2020-03-23 22:50:36,138 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 951 in on_ready: Connection established, ready to go.
+[4.4893531799316406] 2020-03-23 22:50:36,139 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 342 in _cache_app_info: Caching app info
+[4.7137854099273682] 2020-03-23 22:50:36,364 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.7167813777923584] 2020-03-23 22:50:36,367 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 789 in _scheck_server_permissions: Checking server permissions
+[4.7167813777923584] 2020-03-23 22:50:36,367 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7177827358245850] 2020-03-23 22:50:36,368 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 797 in _scheck_configs: Validating config
+[4.7177827358245850] 2020-03-23 22:50:36,368 - DEBUG - musicbot.config | In config.py::MainThread(6900), line 236 in async_validate: Validating options...
+[4.7177827358245850] 2020-03-23 22:50:36,368 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 800 in _scheck_configs: Validating permissions config
+[4.7187812328338623] 2020-03-23 22:50:36,369 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6900), line 94 in async_validate: Validating permissions...
+[4.7187812328338623] 2020-03-23 22:50:36,369 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.7207801342010498] 2020-03-23 22:50:36,370 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.7227787971496582] 2020-03-23 22:50:36,372 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 979 in on_ready: Guild List:
+[4.7237772941589355] 2020-03-23 22:50:36,373 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 983 in on_ready:  - あの
+[4.7258081436157227] 2020-03-23 22:50:36,376 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 983 in on_ready:  - 公開所
+[4.7268052101135254] 2020-03-23 22:50:36,377 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 1039 in on_ready: Not bound to any text channels
+[4.7298038005828857] 2020-03-23 22:50:36,380 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 1065 in on_ready: Not autojoining any voice channels
+[86.7922749519348145] 2020-03-23 22:51:58,442 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[86.7942740917205811] 2020-03-23 22:51:58,444 - ERROR - musicbot.bot | In bot.py::MainThread(6900), line 2835 in on_message: Error in ms: CommandError: You are not in a voice channel!
+Traceback (most recent call last):
+  File "C:\Users\POPO\musicbot\musicbot\bot.py", line 2813, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\POPO\musicbot\musicbot\bot.py", line 1904, in cmd_ms
+    raise exceptions.CommandError(self.str.get('cmd-summon-novc', 'You are not connected to voice. Try joining a voice channel!'))
+musicbot.exceptions.CommandError: You are not in a voice channel!
+[127.9664075374603271] 2020-03-23 22:52:39,616 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[128.6102669239044189] 2020-03-23 22:52:40,260 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 1935 in cmd_ms: Joining 公開所/一般
+[128.6192405223846436] 2020-03-23 22:52:40,269 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 532 in on_player_stop: Running on_player_stop
+[149.9919457435607910] 2020-03-23 22:53:01,642 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 2706 in on_message: 258117009714184193/popopo#4752: !sg ヤマガタ電機
+[152.3998413085937500] 2020-03-23 22:53:04,050 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 1408 in cmd_sg: {'_type': 'url', 'url': 'ytsearch:ヤマガタ電機', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'ヤマガタ電機', 'webpage_url_basename': 'ヤマガタ電機', 'extractor_key': 'Generic'}
+[155.3565661907196045] 2020-03-23 22:53:07,006 - DEBUG - musicbot.entry | In entry.py::MainThread(6900), line 56 in get_ready_future: Created future for None
+[155.3585653305053711] 2020-03-23 22:53:07,008 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 624 in on_player_entry_added: Running on_player_entry_added
+[155.3585653305053711] 2020-03-23 22:53:07,008 - DEBUG - musicbot.bot | In bot.py::MainThread(6900), line 709 in serialize_queue: Serializing queue for 641272624013639689
+[155.3595645427703857] 2020-03-23 22:53:07,009 - INFO - musicbot.entry | In entry.py::MainThread(6900), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=3q3_WS3d93I
+[156.5261673927307129] 2020-03-23 22:53:08,176 - INFO - musicbot.entry | In entry.py::MainThread(6900), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=3q3_WS3d93I
+[157.3574194908142090] 2020-03-23 22:53:09,007 - DEBUG - musicbot.entry | In entry.py::MainThread(6900), line 56 in get_ready_future: Created future for audio_cache\youtube-3q3_WS3d93I-_.webm
+[157.3574194908142090] 2020-03-23 22:53:09,007 - FFMPEG - musicbot.player | In player.py::MainThread(6900), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3q3_WS3d93I-_.webm
+[716.5417027473449707] 2020-03-23 23:02:28,191 - INFO - musicbot.bot | In bot.py::MainThread(6900), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[1.0556910037994385] 2020-03-23 23:06:19,138 - WARNING - musicbot.config | In config.py::MainThread(1136), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0556910037994385] 2020-03-23 23:06:19,138 - INFO - musicbot.config | In config.py::MainThread(1136), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0576896667480469] 2020-03-23 23:06:19,140 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 225 in _setup_logging: Set logging level to INFO
+[1.0596888065338135] 2020-03-23 23:06:19,142 - DEBUG - musicbot.json | In json.py::MainThread(1136), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0876903533935547] 2020-03-23 23:06:19,170 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 90 in __init__: Starting MusicBot version_unknown
+[1.0876903533935547] 2020-03-23 23:06:19,170 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.4908990859985352] 2020-03-23 23:06:22,573 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 951 in on_ready: Connection established, ready to go.
+[4.4918613433837891] 2020-03-23 23:06:22,574 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 342 in _cache_app_info: Caching app info
+[4.7145404815673828] 2020-03-23 23:06:22,797 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.7175185680389404] 2020-03-23 23:06:22,800 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.7175185680389404] 2020-03-23 23:06:22,800 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 789 in _scheck_server_permissions: Checking server permissions
+[4.7175185680389404] 2020-03-23 23:06:22,800 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7185378074645996] 2020-03-23 23:06:22,801 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 797 in _scheck_configs: Validating config
+[4.7185378074645996] 2020-03-23 23:06:22,801 - DEBUG - musicbot.config | In config.py::MainThread(1136), line 236 in async_validate: Validating options...
+[4.7185378074645996] 2020-03-23 23:06:22,801 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 800 in _scheck_configs: Validating permissions config
+[4.7185378074645996] 2020-03-23 23:06:22,801 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1136), line 94 in async_validate: Validating permissions...
+[4.7195386886596680] 2020-03-23 23:06:22,802 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.7205193042755127] 2020-03-23 23:06:22,803 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.7215147018432617] 2020-03-23 23:06:22,804 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 979 in on_ready: Guild List:
+[4.7225158214569092] 2020-03-23 23:06:22,805 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 983 in on_ready:  - あの
+[4.7235140800476074] 2020-03-23 23:06:22,806 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 983 in on_ready:  - 公開所
+[4.7251017093658447] 2020-03-23 23:06:22,808 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 1039 in on_ready: Not bound to any text channels
+[4.7261068820953369] 2020-03-23 23:06:22,809 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 1065 in on_ready: Not autojoining any voice channels
+[28.0167574882507324] 2020-03-23 23:06:46,099 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[28.8638625144958496] 2020-03-23 23:06:46,946 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[28.9827928543090820] 2020-03-23 23:06:47,065 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[28.9827928543090820] 2020-03-23 23:06:47,065 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 1935 in cmd_ms: Joining あの/bot_test
+[28.9847915172576904] 2020-03-23 23:06:47,067 - DEBUG - musicbot.entry | In entry.py::MainThread(1136), line 56 in get_ready_future: Created future for None
+[28.9857909679412842] 2020-03-23 23:06:47,068 - INFO - musicbot.entry | In entry.py::MainThread(1136), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[33.4349725246429443] 2020-03-23 23:06:51,518 - INFO - musicbot.entry | In entry.py::MainThread(1136), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[33.4379708766937256] 2020-03-23 23:06:51,521 - FFMPEG - musicbot.player | In player.py::MainThread(1136), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[58.5797669887542725] 2020-03-23 23:07:16,662 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[60.8136954307556152] 2020-03-23 23:07:18,896 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.o2695h7grj_q7ngk5_28tyxxssmhjri', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc1256fb3d6.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.oefwmtklgy_q7ngk4_311ebwpbxo7l2', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26132, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[61.7685194015502930] 2020-03-23 23:07:19,851 - DEBUG - musicbot.entry | In entry.py::MainThread(1136), line 56 in get_ready_future: Created future for None
+[61.7705342769622803] 2020-03-23 23:07:19,853 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 624 in on_player_entry_added: Running on_player_entry_added
+[61.7705342769622803] 2020-03-23 23:07:19,853 - DEBUG - musicbot.bot | In bot.py::MainThread(1136), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[61.7715349197387695] 2020-03-23 23:07:19,854 - INFO - musicbot.entry | In entry.py::MainThread(1136), line 207 in _download: Download cached: https://www.nicovideo.jp/watch/sm36457262
+[63.7636592388153076] 2020-03-23 23:07:21,846 - DEBUG - musicbot.entry | In entry.py::MainThread(1136), line 56 in get_ready_future: Created future for audio_cache\niconico-sm36457262-_.mp4
+[63.7636592388153076] 2020-03-23 23:07:21,846 - FFMPEG - musicbot.player | In player.py::MainThread(1136), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[474.3251094818115234] 2020-03-23 23:14:12,408 - INFO - musicbot.bot | In bot.py::MainThread(1136), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[1.0497920513153076] 2020-03-24 00:08:31,721 - WARNING - musicbot.config | In config.py::MainThread(4712), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0497920513153076] 2020-03-24 00:08:31,721 - INFO - musicbot.config | In config.py::MainThread(4712), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0527904033660889] 2020-03-24 00:08:31,724 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 225 in _setup_logging: Set logging level to INFO
+[1.0537900924682617] 2020-03-24 00:08:31,725 - DEBUG - musicbot.json | In json.py::MainThread(4712), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0817916393280029] 2020-03-24 00:08:31,753 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 90 in __init__: Starting MusicBot version_unknown
+[1.0827884674072266] 2020-03-24 00:08:31,754 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.7214648723602295] 2020-03-24 00:08:35,392 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 951 in on_ready: Connection established, ready to go.
+[4.7214648723602295] 2020-03-24 00:08:35,392 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 342 in _cache_app_info: Caching app info
+[4.9728853702545166] 2020-03-24 00:08:35,644 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.9778816699981689] 2020-03-24 00:08:35,649 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.9788796901702881] 2020-03-24 00:08:35,650 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 789 in _scheck_server_permissions: Checking server permissions
+[4.9788796901702881] 2020-03-24 00:08:35,650 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.9788796901702881] 2020-03-24 00:08:35,650 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 797 in _scheck_configs: Validating config
+[4.9788796901702881] 2020-03-24 00:08:35,650 - DEBUG - musicbot.config | In config.py::MainThread(4712), line 236 in async_validate: Validating options...
+[4.9798800945281982] 2020-03-24 00:08:35,651 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 800 in _scheck_configs: Validating permissions config
+[4.9798800945281982] 2020-03-24 00:08:35,651 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4712), line 94 in async_validate: Validating permissions...
+[4.9798800945281982] 2020-03-24 00:08:35,651 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 968 in on_ready: Connected: 690460750581465109/musicbot#1291
+[4.9818825721740723] 2020-03-24 00:08:35,653 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 976 in on_ready: Owner:     258117009714184193/popopo#4752
+
+[4.9839069843292236] 2020-03-24 00:08:35,655 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 979 in on_ready: Guild List:
+[4.9849059581756592] 2020-03-24 00:08:35,656 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 983 in on_ready:  - あの
+[4.9869046211242676] 2020-03-24 00:08:35,658 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 983 in on_ready:  - 公開所
+[4.9890403747558594] 2020-03-24 00:08:35,660 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 1039 in on_ready: Not bound to any text channels
+[4.9910776615142822] 2020-03-24 00:08:35,662 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 1065 in on_ready: Not autojoining any voice channels
+[19.2641992568969727] 2020-03-24 00:08:49,935 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 2706 in on_message: 258117009714184193/popopo#4752: !ms
+[20.2176678180694580] 2020-03-24 00:08:50,888 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 733 in deserialize_queue: Deserializing queue for 627432898257223690
+[20.3465883731842041] 2020-03-24 00:08:51,017 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 425 in get_player: Created player via deserialization for guild 627432898257223690 with 1 entries
+[20.3475875854492188] 2020-03-24 00:08:51,018 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 1935 in cmd_ms: Joining あの/bot_test
+[20.3485870361328125] 2020-03-24 00:08:51,019 - DEBUG - musicbot.entry | In entry.py::MainThread(4712), line 56 in get_ready_future: Created future for None
+[20.3505856990814209] 2020-03-24 00:08:51,021 - INFO - musicbot.entry | In entry.py::MainThread(4712), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[23.9027910232543945] 2020-03-24 00:08:54,574 - INFO - musicbot.entry | In entry.py::MainThread(4712), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[23.9047896862030029] 2020-03-24 00:08:54,576 - FFMPEG - musicbot.player | In player.py::MainThread(4712), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[24.1981828212738037] 2020-03-24 00:08:54,869 - DEBUG - musicbot.player | In player.py::MainThread(4712), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x05ED0590> using <discord.voice_client.VoiceClient object at 0x054F5850>
+[24.1991822719573975] 2020-03-24 00:08:54,870 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 460 in on_player_play: Running on_player_play
+[24.2001874446868896] 2020-03-24 00:08:54,871 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[58.7611727714538574] 2020-03-24 00:09:29,432 - DEBUG - musicbot.player | In player.py::Thread-3(10504), line 220 in _playback_finished: Deleting file: audio_cache\niconico-sm36457262-_.mp4
+[58.7611727714538574] 2020-03-24 00:09:29,432 - DEBUG - musicbot.player | In player.py::Thread-3(10504), line 225 in _playback_finished: File deleted: audio_cache\niconico-sm36457262-_.mp4
+[61.3066699504852295] 2020-03-24 00:09:31,977 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[61.7237620353698730] 2020-03-24 00:09:32,395 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[61.7247834205627441] 2020-03-24 00:09:32,396 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 532 in on_player_stop: Running on_player_stop
+[109.4688267707824707] 2020-03-24 00:10:20,140 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 2706 in on_message: 258117009714184193/popopo#4752: !sg https://www.nicovideo.jp/watch/sm36457262
+[112.2686252593994141] 2020-03-24 00:10:22,939 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 1408 in cmd_sg: {'id': 'sm36457262', 'title': '地上のたべるんご', 'formats': [{'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_c94eba78f5e7f8d90119ee640065f1acd65f33cfbe8540b2141b1d53e01cc257?ht2_nicovideo=14860027.ggrghochac_q7njh8_36ssuoo0zsuk3', 'format_id': 'h264_360p_low-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 300.0, 'height': 360, 'width': 640, 'tbr': 364.0}, {'url': 'https://pc0354b01d8.dmc.nico/vod/ht2_nicovideo/nicovideo-sm36457262_ba304174c6a3617c3ab4d97917bc184032269dda7bc1de0c9c259ba6cc14c0aa?ht2_nicovideo=14860027.8e0wyxbwpv_q7njh8_3vqnqn4armkpi', 'format_id': 'h264_360p-aac_64kbps', 'ext': 'mp4', 'abr': 64.0, 'vbr': 600.0, 'height': 360, 'width': 640, 'tbr': 664.0}], 'thumbnail': 'https://nicovideo.cdn.nimg.jp/thumbnails/36457262/36457262.59326915', 'description': '本家→ <a href="https://www.nicovideo.jp/watch/sm36210300" class="watch">sm36210300</a><br><span style="color: #000000; font-size: 14px;">投稿動画→\xa0</span><a href="https://www.nicovideo.jp/mylist/61182473" target="_blank" rel="noopener">mylist/61182473</a>', 'uploader': 'ますたー。P', 'timestamp': 1583298122, 'uploader_id': '18622826', 'view_count': 26144, 'comment_count': 0, 'duration': 34, 'webpage_url': 'https://www.nicovideo.jp/watch/sm36457262', 'extractor': 'niconico', 'webpage_url_basename': 'sm36457262', 'extractor_key': 'Niconico'}
+[113.6403198242187500] 2020-03-24 00:10:24,311 - DEBUG - musicbot.entry | In entry.py::MainThread(4712), line 56 in get_ready_future: Created future for None
+[113.6413202285766602] 2020-03-24 00:10:24,312 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 624 in on_player_entry_added: Running on_player_entry_added
+[113.6423189640045166] 2020-03-24 00:10:24,313 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[113.6423189640045166] 2020-03-24 00:10:24,313 - INFO - musicbot.entry | In entry.py::MainThread(4712), line 292 in _really_download: Download started: https://www.nicovideo.jp/watch/sm36457262
+[115.6484651565551758] 2020-03-24 00:10:26,319 - DEBUG - musicbot.entry | In entry.py::MainThread(4712), line 56 in get_ready_future: Created future for None
+[119.9570603370666504] 2020-03-24 00:10:30,628 - INFO - musicbot.entry | In entry.py::MainThread(4712), line 302 in _really_download: Download complete: https://www.nicovideo.jp/watch/sm36457262
+[119.9590775966644287] 2020-03-24 00:10:30,630 - FFMPEG - musicbot.player | In player.py::MainThread(4712), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\niconico-sm36457262-_.mp4
+[119.9620766639709473] 2020-03-24 00:10:30,633 - DEBUG - musicbot.player | In player.py::MainThread(4712), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0639AB30> using <discord.voice_client.VoiceClient object at 0x054F5850>
+[119.9630575180053711] 2020-03-24 00:10:30,634 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 460 in on_player_play: Running on_player_play
+[119.9630575180053711] 2020-03-24 00:10:30,634 - DEBUG - musicbot.bot | In bot.py::MainThread(4712), line 709 in serialize_queue: Serializing queue for 627432898257223690
+[138.7611858844757080] 2020-03-24 00:10:49,432 - INFO - musicbot.bot | In bot.py::MainThread(4712), line 2706 in on_message: 258117009714184193/popopo#4752: !me
+[138.7781794071197510] 2020-03-24 00:10:49,449 - DEBUG - musicbot.player | In player.py::Thread-4(9332), line 220 in _playback_finished: Deleting file: audio_cache\niconico-sm36457262-_.mp4
+[138.7781794071197510] 2020-03-24 00:10:49,449 - DEBUG - musicbot.player | In player.py::Thread-4(9332), line 225 in _playback_finished: File deleted: audio_cache\niconico-sm36457262-_.mp4
