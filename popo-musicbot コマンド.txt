@@ -1,3 +1,6 @@
+コマンド一覧
+!guide
+
 呼び出し
 !ms
 (musicstart)

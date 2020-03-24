@@ -1127,7 +1127,7 @@ class MusicBot(discord.Client):
         player.autoplaylist = list(set(self.autoplaylist))
         return Response(self.str.get('cmd-resetplaylist-response', '\N{OK HAND SIGN}'), delete_after=15)
 
-    async def cmd_help(self, message, channel, command=None):
+    async def cmd_guide(self, message, channel, command=None):
         """
         Usage:
             {command_prefix}help [command]
@@ -2866,7 +2866,7 @@ class MusicBot(discord.Client):
 
     async def gen_cmd_list(self, message, list_all_cmds=False):
         for att in dir(self):
-            # This will always return at least cmd_help, since they needed perms to run this command
+            # This will always return at least cmd_guide, since they needed perms to run this command
             if att.startswith('cmd_') and not hasattr(getattr(self, att), 'dev_cmd'):
                 user_permissions = self.permissions.for_user(message.author)
                 command_name = att.replace('cmd_', '').lower()
